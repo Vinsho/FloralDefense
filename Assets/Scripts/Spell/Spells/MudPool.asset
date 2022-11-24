@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735fafdaf2bbd7942882d33c6f8baebd, type: 3}
+  m_Name: MudPool
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5047953385672934283, guid: feaf0302c2cb83a13be3cda4b48836f8, type: 3}
+  groundMark: {fileID: 6870819392702879635, guid: 98254a5f2dae58c20ba13830494509c5, type: 3}
+  castDuration: 0.5
+  animationTrigger: WrathTrigger
+  damage: 0
+  spellType: 1
+  duration: 10
+  slowPercentage: 0.6
+  slowDuration: 1
+  manaCost: 1
+  description: Casts pool of mud on ground which slows enemies by 60%
